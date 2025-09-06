@@ -283,7 +283,7 @@
       </div>
     </div>
     <div id="toast" class="toast">Erreur réseau : impossible d'enregistrer le score</div>
-
+    
     <script>
       // --- State ---
       let score = 0;
@@ -599,7 +599,7 @@
         .addEventListener("click", () => location.reload());
     </script>
     <script type="module">
-      import { addScore } from "./supabase.js";
+      import { addScore,getScores  } from "./ASEPA/supabase.js";
 
       // Exemple quand le jeu se termine
       function gameOver() {
